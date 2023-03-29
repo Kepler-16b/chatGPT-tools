@@ -45,8 +45,8 @@ convert2Markdown.py 是使用chatGPT辅助编写的文本转换脚本。
             注意在两次输入之间，应该等待终端提示下载完成，才可继续执行下一条指令；
         4. 若正常运行，两个依赖库应该都已经被正确安装，您可以通过以下指令来确认：
             pip show pygments beautifulsoup4
-
             这将打印出类似下面的信息：
+            
             Name: beautifulsoup4
             Version: 4.11.2
             Summary: Screen-scraping library
@@ -57,8 +57,11 @@ convert2Markdown.py 是使用chatGPT辅助编写的文本转换脚本。
     - 在chatGPT的任意聊天窗口中，右键-另存为，将整个页面保存为html文档。建议您建立一个专门的文件夹用于存放chatGPT的聊天记录；
 
     - 将下载的html文件放置于：
+    
             ~\chatGPT聊天记录转换\source\聊天记录XXXX.html
+            
         你的文件夹层级结构应该看上去类似这样：
+        
             |----chatGPT聊天记录转换
                 |----output
                 |----source
