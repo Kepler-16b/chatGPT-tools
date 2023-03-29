@@ -30,7 +30,7 @@ from bs4 import MarkupResemblesLocatorWarning
 warnings.filterwarnings('ignore', category=MarkupResemblesLocatorWarning)
 
 
-'''----------------文件路径处理与html解析缓冲----------------'''
+'''----------------文件路径处理----------------'''
 # 获取脚本所在目录的绝对路径
 script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
 
